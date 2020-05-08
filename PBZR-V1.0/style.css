@@ -1,0 +1,851 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+container {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.pdzrlogo {
+    width: 90px;
+    height: 45px;
+    margin: 1px 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+.dropdown-menu:hover{
+display: block;
+}
+/*Submega Menu*/
+.megamenu {
+    position: static;
+  }
+  
+  .megamenu .dropdown-menu {
+    background: #FFFFFF;
+    border-top: 2px solid red;
+    width: auto;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+  }
+ .fzyMegamenuhdng {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 12px;
+    background-color:#FFFFFF;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+
+}
+.megamenu ul {
+    list-style: none;
+}
+.megamenu ul li{
+display: block;
+}
+.megamenu ul li a{
+text-decoration: none;
+font-size: 13px;
+font-family:'Rubik', sans-serif;
+color: #555555;
+float: left;
+display: block;
+width: 100%;
+height: auto;
+margin:2px auto;
+padding: auto;
+text-align: left;
+}
+.megamenu ul li a:hover {
+    background-color: transparent;
+    color: #000000;
+}
+        /*Heading Main*/
+.fzy-Mainheading {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    }
+    .fzyMainheadingdwn {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .fzyMainheadingdwndta {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .fzyMainheadingdwndta h5{
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        padding-top:30px;
+        padding-left:30px;
+        color: #555;
+        font-size: 17px;
+        font-family:'Rubik', sans-serif;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    #scndhdng {
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        padding-top:45px;
+        padding-left:30px;
+        color: #555;
+        font-size: 17px;
+        font-family:'Rubik', sans-serif;
+        text-transform: uppercase;
+        padding-bottom: 15px; 
+    }
+/*This card sections*/
+.fzySplcrd {
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+background-color: #FFFFFF;
+}
+.fzySplcrdDwn {
+    width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+}
+.fzySplcrdDwndtl {
+    width: 100%;
+    height: auto;
+    margin:0px auto;
+    padding: 30px;
+}
+#fzyCard {
+    box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 0px 9px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4%;
+}
+#fzy-crdtxt {
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+font-size: 14px;
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+color: #000000;
+text-transform: uppercase;
+font-weight: 600;
+}
+#fzy-crdtxtsub {
+    width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+font-size: 11px;
+font-family:'Rubik', sans-serif;
+text-align: center;
+color: #555555;
+text-transform: uppercase;
+}
+/*Pre Bannner*/
+.fzyPreimageSctn{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+.fzyPreimageSctndwn{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.fzyPreimageSctndwndtls {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 20px;  
+}
+.fzyPreimageSctndwndtls a {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.fzyPreimageSctndwndtls a:hover{
+    text-decoration: none;
+}
+/*How to run more than one slides in same time*/
+.fzymutlislides{
+    width: 100%;
+    height:auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+.fzymutlislidesdwn {
+    width: 100%;
+    height: auto;
+    margin: 5px auto 15px auto;
+    padding: 20px;
+    background-color:#ECEFF1;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+  @media screen and (max-width: 414px) {
+    .fzymutlislidesdwn {
+        display: none;
+    }
+  }
+  .fzyslidrsmall {
+      width: 100%;
+   height: auto;
+   padding: 0px;
+margin: 0px;
+background-color:transparent;
+display: none;
+    }
+    .fzyslidrsmalldwn{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+     margin: 10px auto;  
+     background-color:transparent; 
+     background-color:#ECEFF1;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     display: none;
+    }
+    @media screen and (max-width: 414px) {
+        .fzyslidrsmall{
+            display: block;
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        .fzyslidrsmalldwn{
+            display: block;
+        }
+      }
+      .fzyCenterheading {
+          width: 100%;
+          height: auto;
+          margin: 0px;
+          padding: 0px;
+          background-color: #FFFFFF;
+      }
+      .fzyCenterheadingdwn{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;   
+      }
+      .fzyCenterheadingdwndtls {
+        width: 100%;
+        height: auto;
+        margin:3px auto;
+        padding: 0px; 
+      }
+       .fzyCenterheadingdwndtls h3{
+width: 100%;
+height: auto;
+margin: 0px;
+padding-top:55px;
+padding-bottom: 2px;
+font-family:'Rubik', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+color: #555555;
+text-align: left;
+padding-left:30px;
+      }
+      .fzyFtrhdng{
+          width: 100%;
+          height: auto;
+          margin: 0px;
+          padding: 0px;
+          background-color: #FFFFFF;
+      }
+      .fzyFtrhdngdwn{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+      }
+      .fzyFtrhdngdwndtl {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;  
+      }
+      .fzyFtrhdngdwndtl h6 {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding-top: 35px;  
+        padding-left: 30px;
+        padding-bottom: 10px;   
+        font-family:'Rubik', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+color: #555555;
+      text-align: left;
+    }
+    .fzyftrCrd {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        background-color: #FFFFFF; 
+    }
+    .fzyftrCrdsctn {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .fzyftrCrdsctndtls{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+        padding: 10px;
+    }
+   #ftr-crds {
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius:0.19rem;
+    }
+    #fzyftrCrdtxt {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding-left: 3px;
+font-family: 'Rubik', sans-serif;
+font-size: 10px;
+text-transform: uppercase;
+color: #555555;
+text-align: left;
+    }
+    .fzyfooter {
+        width: 100%;
+        height:auto;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    }
+    .fzyfooterdwn {
+        width: 100%;
+        height:auto;
+        margin: 0px;
+        padding-top: 20px;
+padding-bottom: 10px; 
+    }
+    .fzyfooterdwndtls {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        padding:5px;
+    }
+    .fzyftrinrhdng {
+        width: 100%;
+        height: auto;
+       overflow: hidden;
+    }
+    .fzyftrinrhdng h5{
+        width: 100%;
+        height: auto;
+       color: #FFFFFF;
+       font-size: 18px;
+       text-align: left;
+       margin: 0px;
+       padding-top: 10px;
+       padding-bottom: 8px;
+        padding-left: 6px;
+font-family: 'Rubik', sans-serif;
+text-transform: uppercase;
+    }
+    .fzyfooterdtasctn {
+        width: 100%;
+        height:auto;
+        margin: 0px;
+        padding: 0px;  
+    }
+    .fzyfooterdtasctn a {
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding-left: 6px;
+font-family: 'Rubik', sans-serif;
+font-size: 13px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: left;
+display: block;
+padding-top:4px;
+    }
+    .fzyfooterdtasctn a:hover {
+        text-decoration: none;
+        color:#FFFFFF; 
+    }
+    .fzydvdr {
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0;       
+        border-top: 1px solid #FFFFFF;
+        width:20%;
+        height: 2px;
+        float: left;
+        margin-left: 7px;
+    }
+    .fzyftrscnd {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        padding:10px;
+    }
+    .fzyftrscnddtl {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        padding: 0px; 
+
+    }
+    .fzyfooterdtasctn p {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding-left: 6px;
+font-family: 'Rubik', sans-serif;
+font-size: 13px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: left;
+float: left;
+display: block;
+padding-top: 4px;
+    }
+    .fzy-ftrgallery {
+        width: 100%;
+        height: auto;
+        margin: 6px 7px;
+    }
+    .fzy-ftrdvsctn {
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    }
+    .fzy-ftrdvsctndwn {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;  
+    }
+    .fzy-ftrdvsctndwndtl{ 
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+        padding-top: 5px;
+    }
+    .fzy-ftrdvsctndwndtl ul {
+        list-style: none;
+    }
+    .fzy-ftrdvsctndwndtl ul li{
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: 0px;
+padding: 0px;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 3px;
+    }
+    .fzy-ftrdvsctndwndtl ul li a {
+        width: auto;
+        height: auto;
+        margin: 0px;
+padding: 0px;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 3px;
+font-weight: 600;
+    }
+    .fzy-ftrdvsctndwndtl ul li a:hover {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .fzyProductsSctn {
+        width: 100%;
+        height:auto;
+        margin: 0px auto;
+        padding: 0px;
+        background-color: aliceblue;
+        overflow: hidden;
+    }
+    .fzyboardSctn {
+        width: 100%;
+        height:auto;
+        margin: 0px;
+        padding: 0px;
+        background-color: #FFFFFF;
+    }
+    .fzyboardSctndwn{
+        width: 100%;
+        height: auto;
+       margin: 10px auto;
+       padding-top:25px;
+       padding-bottom:15px;
+    }
+    .fzyboardSctndwndtl {
+        width:auto;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .fzyboardSctndwndtl a {
+        text-decoration: none;
+        overflow: hidden;
+    }
+ 
+    @media screen and (max-width: 414px) {
+        .fzysmllglry{
+            display: none;
+        }
+      }
+    /*Breadcrumb section starting */
+    .fzyBreadcrumbSctn{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        background-color:#FFFFFF;
+    }
+    .fzyBreadcrumbSctndwn {
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+        padding-top:8px;
+        padding-bottom: 5px;
+    }
+    .fzyBreadcrumbSctndwndtls {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px; 
+    }
+    #fzybrdcrumb {
+        background-color: transparent;
+border-radius: 0px;
+    }
+   #fzybrdcrum:hover {
+text-decoration: none;
+    }
+ /*Products sections starting*/
+.fzyProductsection {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+
+}
+.fzyProductsitems {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    border: 1px solid #f0f0f0;
+    margin-top: 10px;
+}
+.fzyProductsitems  .fzyimgPrd {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.fzyProductsitems  .fzyimgPrd img {
+   -webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+-o-transform: scale(1);
+transform: scale(1);
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.fzyProductsitems  .fzyimgPrd:hover img, .fzyProductsitems .img-fzyimgPrd:focus img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.fzyProductsitems  .fzyimgPrd img {
+    -webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+-o-transform: scale(1);
+transform: scale(1);
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.fzyProductsitems  .fzyimgPrd .fzyOffer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 10px;
+    color: #fff;
+    font-weight: 400;
+    background-color: teal;
+    font-size: 13px;
+}
+.fzyProductsitems .fzyimgPrd .fzyOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0;
+    background-color: #82ae46;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.fzyProductsitems .fzytxt {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+}
+.fzyProductsitems .fzytxt p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: poppins,Arial,sans-serif;
+    margin: 5px auto;
+}
+.fzyProductsitems .fzytxt p a {
+    color: #525252;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fzyProductsitems .fzytxt p a:hover {
+    text-decoration: none;
+    display: block;
+}
+.fzyProductsitems .fzytxt .fzyProductprice {
+    width: 100%;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.fzyProductsitems .fzytxt p.fzyProductpricetxt {
+    margin-bottom: 0;
+    color: #82ae46;
+    font-weight: 400;
+}
+.fzyProductsitems .fzytxt p.fzyProductpricetxt  span.price-list {
+    text-decoration: line-through;
+    color: #b3b3b3;
+}
+.fzyProductsitems .fzytxt p.fzyProductpricetxt .price-sale {
+    color: #82ae46;
+}
+.fzyProductsitems:hover  .fzytxt .fzy-btmarea {
+    opacity: 1;
+}
+.fzyProductsitems  .fzytxt .fzy-btmarea { 
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.fzyProductsitems  .fzytxt .fzy-btmarea .m-auto {
+    margin: 0px auto;
+}
+.fzyProductsitems  .fzytxt .fzy-btmarea a {
+    color: #FFFFFF;
+    width: 40px;
+    background-color: #82ae46;
+    height: 40px;
+    margin: 0 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 8px;
+    line-height: 40px;
+}
+.fzyProductsitems:hover .fzyProductprice {
+    opacity: 0;
+}
+/*Contact Form Starting*/
+.fzyContactHeader {
+    width: 100%;
+    height:auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+.fzyContactHeaderDwn {
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+    padding: 0px;
+}
+.fzyContactHeaderDwndtls {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px; 
+}
+.fzyContactHeaderDwndtls h6 {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-top:10px;
+    padding-left:15px;
+    color: #555555;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#e52e71));
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    -webkit-text-decoration-color: #ff8a00!important;
+    text-decoration-color: #ff8a00!important;
+    font-weight: 700;
+}
+.fzyContlftpht {
+    width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+}
+.fzyContlftphtdwn {
+    width: 100%;
+    height:auto;
+    padding: 7px;
+    margin: 5px auto;  
+    background-color: #FFFFFF;
+    box-shadow: -5px 2px 9px 0px rgba(0, 0, 0.4, 0.1);
+}
+.fzyContlftphtdwndtls {
+    width: 100%;
+    height:auto;
+    padding: 0px;
+    margin: 0px;  
+}
+.fzyContHeading {
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    background-color: transparent;
+    padding: 10px;
+}
+.fzyContHeading .contstxt{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-top: 15px;
+    padding-left:5px;
+    padding-bottom: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+   color: #525252;
+    text-align: left;
+}
+.fzyFormdata {
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+   color: #525252;
+    text-align: left;
+}
+.fzyfrmfld {
+    width: 100%;
+    height: auto;
+    margin: 2px auto;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+   color: #525252;
+    text-align: left;
+}
+#fzyBtns {
+width: auto;
+height: auto;
+margin: 10px auto;
+padding: 10px 15px;
+font-size: 13px;
+color: #555555;
+position: relative;
+font-weight: 600;
+text-transform: uppercase;
+}
+.fzyContrhtphtdwn {
+    width: 100%;
+ height: auto;
+    padding: 7px;
+    margin: 5px auto;  
+ background-color: transparent;
+}
+.fzyContrhtphtdwndtls{
+    width: 100%;
+    height:auto;
+    padding: 0px;
+    margin: 0px;    
+}
